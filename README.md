@@ -4,7 +4,7 @@
 ## Quick Start
 
 
-edit  go.mod
+### Edit  go.mod
 
 ```
 require (
@@ -30,7 +30,7 @@ replace (
 )
 ```
 
-### crate and use nc-cosmos-client
+### Create and use nc-cosmos-client
 
 [examples](./examples/main.go)
 
@@ -120,7 +120,7 @@ func main() {
 		hashArray = append(hashArray, nftResult.Hash)
 	}
 
-	// mint NFT
+	// Mint NFT
 	mintNFT, err := client.NFT.MintNFT(nft.MintNFTRequest{Denom: "testdenom", ID: "testnft1", Name: "aaa", URI: "www.test.com", Data: "test", Recipient: address}, baseTx)
 	if err != nil {
 		e := err.(types.Error)
