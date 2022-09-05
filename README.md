@@ -30,7 +30,7 @@ replace (
 )
 ```
 
-### Create and use nc-cosmos-client
+### Create and use Spartan-II Chain (Powered by NC Cosmos) client
 
 [examples](./examples/main.go)
 
