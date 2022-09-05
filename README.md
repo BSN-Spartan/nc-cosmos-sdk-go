@@ -1,4 +1,4 @@
-# Spartan-II Chain (Powered by NC Cosmos)GOlang SDK
+# Spartan-II Chain (Powered by NC Cosmos) Golang SDK
 
 
 ## Quick Start
